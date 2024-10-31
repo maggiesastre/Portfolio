@@ -7,7 +7,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IRepositorioProyectos, RepositorioProyectos>();
 builder.Services.AddScoped<ServicioDelimitado>();
 builder.Services.AddSingleton<ServicioUnico>();
-builder.Services.AddTransient<ServicioUnico>();
+builder.Services.AddTransient<ServicioTransitorio>();
 
 
 
